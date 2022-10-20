@@ -7,17 +7,7 @@ import utilities.Driver;
 
 public class AlloverPage {
 
-    public AlloverPage() {
-        PageFactory.initElements(Driver.getDriver(),this);
-    }
-    @FindBy(xpath="(//*[text()='Sign In'])[1]")
-    public WebElement signIn;
 
-    @FindBy(xpath="(//input[@id='username'])[1]")
-    public WebElement username;
-
-    @FindBy(xpath="//*[text()='Sign Out']")
-    public WebElement signOut;
 
 
 
